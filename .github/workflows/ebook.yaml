@@ -22,7 +22,7 @@ jobs:
 
       - name: Generate EPUB from AsciiDoc
         run: |
-          asciidoctor-epub3 livro.adoc -o 'Python Fluente, Segunda Edição (2023).epub'
+          asciidoctor-epub3 Livro.adoc -o 'Python Fluente, Segunda Edição (2023).epub'
 
       - name: Save EPUB to Repository
         run: |
