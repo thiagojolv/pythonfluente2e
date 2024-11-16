@@ -26,8 +26,8 @@ jobs:
 
       - name: Save EPUB to Repository
         run: |
-          git config user.name '${{ secrets.GIT_USER_NAME }}'
-          git config user.email '${{ secrets.GIT_USER_EMAIL }}'
+          git config user.name 'thiagojolv'
+          git config user.email 'thiagoojack@gmail.com'
           git add 'Python Fluente, Segunda Edição (2023).epub'
           git commit -m 'Gerando nova versão do epub'
           git push origin
